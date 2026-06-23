@@ -1,0 +1,10 @@
+name = "musuya"
+main = "worker.js"
+compatibility_date = "2026-06-23"
+
+# Secrets are not stored here. Set the Resend API key with:
+#   wrangler secret put RESEND_API_KEY
+#
+# This makes the contact form actually send email via https://resend.com
+# Without this secret set, the form will fail gracefully and fall back
+# to opening the visitor's email client instead of silently losing the message.

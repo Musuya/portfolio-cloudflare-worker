@@ -1,0 +1,10 @@
+# Wrangler
+.wrangler/
+.dev.vars
+
+# Dependencies (if you ever add any)
+node_modules/
+
+# OS / editor
+.DS_Store
+*.log
